@@ -31,6 +31,7 @@ public class PostServiceImpl implements PostService {
 //        return postRepository.save(post);
 //    }
 
+    //
     @Override
     public int likePost(Post post) {
         int count = post.getCount();
